@@ -1,11 +1,12 @@
 .board {
-  margin-left: 100px;
+  margin-left: 150px;
   margin-top: 30px;
   height: 700px;
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: absolute;
 }
 .board > div {
   margin: 10px;
@@ -14,4 +15,26 @@
   width: 50px; 
 }
 
+.botton {
+  float: left;
+  margin-top: 320px;
+  margin-left: 50px;
+}
 
+.play {
+  height: 50px;
+  width: 50px;
+  background-color: lightskyblue;
+  border-radius: 25px;
+  background-image: url('images/play.png');
+  background-repeat: no-repeat;
+}
+.stop {
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: lightcoral;
+  border-radius: 25px;
+  background-image: url('images/stop.png');
+  background-repeat: no-repeat;
+}
